@@ -3,7 +3,7 @@ const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient()
 class ProductsServices{
 constructor(){
-  this.generate()
+  // this.generate()
 }
 //categorias
  async  generate(){
